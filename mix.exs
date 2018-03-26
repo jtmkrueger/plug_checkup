@@ -5,7 +5,7 @@ defmodule PlugCheckup.Mixfile do
     [
       app: :plug_checkup,
       version: "0.4.0",
-      elixir: "~> 1.5",
+      elixir: "~> 1.4",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       description: description(),
@@ -19,7 +19,7 @@ defmodule PlugCheckup.Mixfile do
         "coveralls.html": :test
       ],
       name: "PlugCheckup",
-      source_url: "https://github.com/ggpasqualino/plug_checkup"
+      source_url: "https://github.com/jtmkrueger/plug_checkup"
     ]
   end
 
